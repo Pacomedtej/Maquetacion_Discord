@@ -1,0 +1,241 @@
+body{
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.imp{
+  font-weight: bold;
+  color: green;
+}
+
+.center{
+  text-align: center;
+}
+.bold{
+  font-weight: bold;
+}
+
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+  /* border: 1px red solid; */
+}
+
+.contenedor1{
+  padding: 15px;
+  height: 300px;
+  border: 1px red solid;
+  /*NECESITA Una height porque si no, como usamos float, detecta que no tiene hijos y su height será 0*/
+}
+
+.parrafo1{
+  width: 300px;
+  border: 3px #ccc solid;
+  float: left;
+  padding: 15px;
+  background-color: rgb(255, 233, 108);
+  border-radius: 10px;
+}
+.parrafo2{
+  width: 200px;
+  border: 3px #ccc solid;
+  float: right;
+  padding: 15px;
+  background-color: rgb(255, 233, 108);
+  border-radius: 10px;
+}
+
+.limpiar{
+  clear: both;
+}
+
+.menu_discord{
+  background-color: white;
+  /* background-color: rgb(255, 236, 193); */
+  margin-top: 20px;
+  padding: 20px 0px;
+}
+
+
+.logo_discord{
+  /* border: 1px red solid; */
+  width: 110px;
+  float: left;
+}
+
+.menu{
+  margin-top: 7px;
+  /* border: 1px red solid; */
+  float: left;
+  width: 920px;
+}
+
+.menu a{
+  text-decoration: none;
+  /* border: 1px blue solid; */
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.menu a:hover{
+  text-decoration: underline;
+}
+
+.menu a:nth-child(1){
+  margin-left: 30px;
+  /* color: red; */
+}
+
+.menu a:nth-child(7){
+  /* background-color: red; */
+  margin-right: 0px;
+}
+
+.btn_azul{
+  background-color: #404eed;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 40px;
+  text-decoration: none;
+  display: inline-block;
+  /*Es NECESARIO que el botón tenga Inline Block para que pueda quedar bien posicionado*/
+}
+.btn_blanco{
+  background-color: #fff;
+  padding: 10px 30px;
+  color: #404eed;
+  border-radius: 40px;
+  text-decoration: none;
+  display: inline-block;
+  /*Es NECESARIO que el botón tenga Inline Block para que pueda quedar bien posicionado*/
+}
+.btn_negro{
+  background-color: black;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 40px;
+  text-decoration: none;
+  display: inline-block;
+  /*Es NECESARIO que el botón tenga Inline Block para que pueda quedar bien posicionado*/
+}
+
+.contenedor_imagina{
+  /* RECUERDA que después de un float se tiene que limpiar con clear: both*/
+  clear:both;
+  background-color: #404eed;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+}
+
+.texto_imagina{
+  margin: auto;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+
+.contenedor_crea{
+  /* border: 2px blue solid; */
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+.foto_crea{
+  /* border: 1px red solid; */
+  width: 580px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.info1{
+  width: 550px;
+  /* border: 1px red solid; */
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+
+.titulos{
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.parrafos{
+  font-size: 18px;
+  color: #23272a;
+  line-height: 33px;
+}
+
+.contenedor_donde{
+  width: 100%;
+  background-color: rgb(185, 185, 185);
+}
+
+.info2{
+  width: 450px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.fotoDonde{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contenedor_Fans{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.contenedor_Tecno{
+  background-color: rgb(185, 185, 185);
+  /* height: 400px; */
+}
+
+.tipografia2{
+  text-align: center;
+  font-family: Impact;
+  font-size: 40px;
+  /* border: 1px red solid; */
+}
+
+.info3{
+  /* width: 450px; */
+  display: inline-block;
+}
+
+.texto_cont_tecno{
+  /* border: 1px red solid; */
+  margin: auto;
+  width: 1050px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contenedor_viaje{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.contenedor_final{
+  background-color: #23272a;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.blanco{
+  color: white;
+}
+
+.logoabajo{
+  width: 130px;
+  vertical-align: middle;
+}
